@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Instituto del Centro</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+}
+
+header{
+    background:#003366;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+header p{
+    margin:5px 0 15px;
+}
+
+nav a{
+    color:white;
+    margin:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    background:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h2{
+    font-size:36px;
+    color:#003366;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:14px 24px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+section h2{
+    text-align:center;
+    color:#003366;
+    font-size:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.12);
+    text-align:center;
+}
+
+.card h3{
+    color:#003366;
+}
+
+.lista{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.12);
+}
+
+.contacto{
+    text-align:center;
+    background:#e9f2ff;
+    border-radius:12px;
+}
+
+.whatsapp-fijo{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Instituto del Centro</h1>
+    <p>Centro de Capacitaciones</p>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#certificaciones">Certificaciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h2>Capacitate hoy, construí tu futuro</h2>
+    <p>Cursos online con salida laboral, material de estudio y certificación institucional.</p>
+
+    <a class="btn" href="https://wa.me/542284637002">
+        Consultar por WhatsApp
+    </a>
+</section>
+
+<section id="nosotros">
+    <h2>¿Quiénes Somos?</h2>
+    <div class="lista">
+        <p>
+            Instituto del Centro es un centro de capacitaciones orientado a brindar formación profesional,
+            práctica y accesible para personas que buscan mejorar sus oportunidades laborales.
+        </p>
+        <p>
+            Nuestros cursos están pensados para que puedas estudiar de manera clara, organizada y con acompañamiento.
+        </p>
+    </div>
+</section>
+
+<section id="cursos">
+    <h2>Nuestros Cursos</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Manipulación de Alimentos</h3>
+            <p>Duración: 2 meses</p>
+            <p>Buenas prácticas, higiene y seguridad alimentaria.</p>
+        </div>
+
+        <div class="card">
+            <h3>Limpieza Institucional</h3>
+            <p>Duración: 2 meses</p>
+            <p>Técnicas y protocolos de limpieza profesional.</p>
+        </div>
+
+        <div class="card">
+            <h3>Asistente Turístico</h3>
+            <p>Duración: 2 meses</p>
+            <p>Formación para trabajar en el sector turístico.</p>
+        </div>
+
+        <div class="card">
+            <h3>Organización y Planificación de Eventos</h3>
+            <p>Duración: 2 meses</p>
+            <p>Herramientas para planificar eventos exitosos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Gestoría del Automotor</h3>
+            <p>Duración: 2 meses</p>
+            <p>Trámites, documentación y gestión automotor.</p>
+        </div>
+
+        <div class="card">
+            <h3>Administración de Consorcios</h3>
+            <p>Duración: 2 meses</p>
+            <p>Gestión administrativa de edificios y consorcios.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="certificaciones">
+    <h2>Certificaciones</h2>
+
+    <div class="lista">
+        <ul>
+            <li>Certificado de aprobación.</li>
+            <li>Modalidad online.</li>
+            <li>Material de estudio incluido.</li>
+            <li>Acompañamiento durante la cursada.</li>
+            <li>Evaluación final integradora.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Consultas e inscripciones por WhatsApp:</p>
+    <h3>2284 63-7002</h3>
+
+    <a class="btn" href="https://wa.me/542284637002">
+        Solicitar Información
+    </a>
+</section>
+
+<footer>
+    <h3>Instituto del Centro</h3>
+    <p>Centro de Capacitaciones</p>
+    <p>© 2026 Instituto del Centro. Todos los derechos reservados.</p>
+</footer>
+
+<a class="whatsapp-fijo" href="https://wa.me/542284637002">
+    WhatsApp
+</a>
+
+</body>
+</html>
