@@ -3,108 +3,285 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R&M Electro</title>
-  <link rel="stylesheet" href="style.css">
+
+  <title>Curso de Manipulación de Alimentos Online | Instituto del Centro</title>
+
+  <meta name="description" content="Curso de Manipulación de Alimentos online. Aprendé higiene alimentaria, seguridad, BPM, conservación y prevención de contaminación. Certificación del Instituto del Centro.">
+  <meta name="keywords" content="curso de manipulación de alimentos, manipulador de alimentos, curso online de alimentos, higiene alimentaria, BPM, seguridad alimentaria, inocuidad alimentaria, curso alimentos Olavarría">
+  <meta name="author" content="Instituto del Centro">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0a1e3f, #003366);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    nav {
+      background: #00264d;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #003366;
+      margin-top: 0;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #eef4fb;
+      padding: 18px;
+      border-radius: 12px;
+      border-left: 5px solid #003366;
+    }
+
+    .modulos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 18px;
+    }
+
+    .modulo {
+      background: #f9f9f9;
+      padding: 18px;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+    }
+
+    .modulo h3 {
+      color: #0a1e3f;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .boton {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .boton:hover {
+      background: #1ebe5d;
+    }
+
+    footer {
+      background: #0a1e3f;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-  <div class="logo">
-    <h1>R&M Electro</h1>
-    <p>Artículos para el hogar y electrónica</p>
-  </div>
+  <header>
+    <h1>Curso de Manipulación de Alimentos</h1>
+    <p>Capacitación online para aprender higiene, seguridad alimentaria, buenas prácticas y prevención de contaminación en alimentos.</p>
+  </header>
 
-  <button class="menu-btn" onclick="toggleMenu()">☰</button>
-
-  <nav id="menu">
-    <a href="#inicio">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#productos">Productos</a>
-    <a href="#contacto">Contacto</a>
+  <nav>
+    <a href="#curso">Curso</a>
+    <a href="#temario">Temario</a>
+    <a href="#dirigido">Dirigido a</a>
+    <a href="#inscripcion">Inscripción</a>
   </nav>
-</header>
 
-<section class="hero" id="inicio">
-  <div class="hero-text">
-    <span>TECNOLOGÍA PARA TU DÍA A DÍA</span>
-    <h2>R&M Electro</h2>
-    <p>Encontrá productos electrónicos y artículos para el hogar con calidad garantizada.</p>
+  <section id="curso">
+    <h2>Curso de Manipulación de Alimentos Online</h2>
+    <p>
+      El Curso de Manipulación de Alimentos del Instituto del Centro está diseñado para capacitar a personas que trabajan o desean trabajar en el rubro gastronómico, comedores, emprendimientos alimenticios, comercios, servicios de catering y espacios donde se elaboren, transporten o vendan alimentos.
+    </p>
 
-    <div class="botones">
-      <a href="https://wa.me/542284637002" class="btn-whatsapp">Consultar por WhatsApp</a>
-      <a href="#productos" class="btn-secundario">Ver productos</a>
+    <div class="info">
+      <div class="card">
+        <strong>Modalidad:</strong>
+        <p>Online en vivo por Zoom</p>
+      </div>
+
+      <div class="card">
+        <strong>Duración:</strong>
+        <p>2 meses</p>
+      </div>
+
+      <div class="card">
+        <strong>Carga horaria:</strong>
+        <p>20 horas reloj</p>
+      </div>
+
+      <div class="card">
+        <strong>Certificación:</strong>
+        <p>Instituto del Centro</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="beneficios">
-  <div>
-    <h3>Calidad Garantizada</h3>
-    <p>Productos seleccionados con garantía.</p>
-  </div>
+  <section>
+    <h2>¿Qué vas a aprender?</h2>
+    <p>
+      Durante la capacitación vas a aprender normas básicas de higiene alimentaria, conservación de alimentos, prevención de enfermedades transmitidas por alimentos, limpieza, desinfección y buenas prácticas de manipulación.
+    </p>
 
-  <div>
-    <h3>Envíos Rápidos</h3>
-    <p>Recibí tus productos en tu domicilio.</p>
-  </div>
+    <ul>
+      <li>Higiene personal del manipulador.</li>
+      <li>Prevención de contaminación cruzada.</li>
+      <li>Conservación segura de alimentos.</li>
+      <li>Buenas Prácticas de Manufactura.</li>
+      <li>Limpieza y desinfección de espacios de trabajo.</li>
+      <li>Prevención de enfermedades transmitidas por alimentos.</li>
+    </ul>
+  </section>
 
-  <div>
-    <h3>Atención Personalizada</h3>
-    <p>Te asesoramos para elegir lo mejor.</p>
-  </div>
+  <section id="temario">
+    <h2>Temario del Curso</h2>
 
-  <div>
-    <h3>Pagos Seguros</h3>
-    <p>Consultá medios de pago disponibles.</p>
-  </div>
-</section>
+    <div class="modulos">
+      <div class="modulo">
+        <h3>Módulo 1: Introducción</h3>
+        <p>Concepto de alimento, inocuidad alimentaria y rol del manipulador.</p>
+      </div>
 
-<section class="productos" id="productos">
-  <p class="subtitulo">CATÁLOGO</p>
-  <h2>Nuestros Artículos</h2>
+      <div class="modulo">
+        <h3>Módulo 2: Contaminación</h3>
+        <p>Contaminación física, química, biológica y cruzada.</p>
+      </div>
 
-  <div class="grid-productos">
+      <div class="modulo">
+        <h3>Módulo 3: Higiene Personal</h3>
+        <p>Lavado de manos, indumentaria, hábitos seguros y presentación personal.</p>
+      </div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=500" alt="Televisor">
-      <h3>Televisores</h3>
-      <a href="https://wa.me/542284637002?text=Hola,%20quiero%20consultar%20por%20televisores">Ver detalles</a>
+      <div class="modulo">
+        <h3>Módulo 4: Limpieza y Desinfección</h3>
+        <p>Productos, procedimientos, frecuencia y métodos de limpieza.</p>
+      </div>
+
+      <div class="modulo">
+        <h3>Módulo 5: Conservación</h3>
+        <p>Refrigeración, congelación, cadena de frío y temperaturas seguras.</p>
+      </div>
+
+      <div class="modulo">
+        <h3>Módulo 6: Enfermedades Alimentarias</h3>
+        <p>ETA, síntomas, prevención y factores de riesgo.</p>
+      </div>
+
+      <div class="modulo">
+        <h3>Módulo 7: BPM</h3>
+        <p>Buenas Prácticas de Manufactura, organización e higiene del espacio.</p>
+      </div>
+
+      <div class="modulo">
+        <h3>Módulo 8: Evaluación Final</h3>
+        <p>Actividad integradora y evaluación de conocimientos adquiridos.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1626202926206-c63a34b1618f?w=500" alt="Electrodomésticos">
-      <h3>Electrodomésticos</h3>
-      <a href="https://wa.me/542284637002?text=Hola,%20quiero%20consultar%20por%20electrodomésticos">Ver detalles</a>
-    </div>
+  <section id="dirigido">
+    <h2>¿A quién está dirigido?</h2>
+    <ul>
+      <li>Personas que trabajan en gastronomía.</li>
+      <li>Emprendedores alimenticios.</li>
+      <li>Personal de comedores y merenderos.</li>
+      <li>Cocineros, ayudantes de cocina y mozos.</li>
+      <li>Personas que desean capacitarse para trabajar.</li>
+    </ul>
+  </section>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Audio">
-      <h3>Audio y Sonido</h3>
-      <a href="https://wa.me/542284637002?text=Hola,%20quiero%20consultar%20por%20audio%20y%20sonido">Ver detalles</a>
-    </div>
+  <section>
+    <h2>Beneficios del curso</h2>
+    <ul>
+      <li>Clases online en vivo.</li>
+      <li>Material de estudio en PDF.</li>
+      <li>Actividades prácticas.</li>
+      <li>Acompañamiento docente.</li>
+      <li>Certificación institucional.</li>
+    </ul>
+  </section>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500" alt="Celulares">
-      <h3>Celulares y Accesorios</h3>
-      <a href="https://wa.me/542284637002?text=Hola,%20quiero%20consultar%20por%20celulares">Ver detalles</a>
-    </div>
+  <section id="inscripcion">
+    <h2>Inscripción al Curso</h2>
+    <p>
+      Para consultar inscripción, fechas de inicio, aranceles y modalidad de cursada, comunicate con el Instituto del Centro.
+    </p>
 
-  </div>
-</section>
+    <a class="boton" href="https://wa.me/5492284000000?text=Hola,%20quiero%20información%20sobre%20el%20Curso%20de%20Manipulación%20de%20Alimentos" target="_blank">
+      Consultar por WhatsApp
+    </a>
+  </section>
 
-<section class="contacto" id="contacto">
-  <h2>¿Necesitás asesoría?</h2>
-  <p>Contactanos por WhatsApp y te ayudamos con gusto.</p>
-  <a href="https://wa.me/542284637002" class="btn-whatsapp">Escribir por WhatsApp</a>
-</section>
+  <footer>
+    <p>Instituto del Centro - Centro de Capacitaciones</p>
+    <p>Curso de Manipulación de Alimentos Online</p>
+  </footer>
 
-<footer>
-  <h3>R&M Electro</h3>
-  <p>Artículos para el hogar y electrónica</p>
-  <p>© 2026 R&M Electro - Todos los derechos reservados.</p>
-</footer>
-
-<script src="app.js"></script>
 </body>
 </html>
